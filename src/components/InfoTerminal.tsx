@@ -105,12 +105,12 @@ export default function InfoTerminal({ isVisible, onClose }: InfoTerminalProps) 
             <div className="space-y-6">
               {/* About Section */}
               <div>
-                <div className="text-[#87ceeb] font-bold mb-2">$ cat about-me.txt</div>
-                <div className="text-[#e5e5e5] leading-relaxed mb-4">
-                  hello! 👋 my name is jonah clemente, and i'm an undergrad at uc berkeley, originally from los angeles. in my free time i play counterstrike, run/lift weights, and make sourdough.
-                  <br /><br />
-                  feel free to explore my projects and experiences using the terminal commands, and enjoy your stay :)
-                </div>
+                <div className="text-[#87ceeb] font-bold mb-2">$ cat about-me.txt</div>                 
+                <div className="text-[#e5e5e5] leading-relaxed mb-4">                   
+                  hello! 👋 my name is jonah clemente, and i&apos;m an undergrad at uc berkeley, originally from los angeles. in my free time i play counterstrike, run/lift weights, and make sourdough.                   
+                  <br /><br />                   
+                  feel free to explore my projects and experiences using the terminal commands, and enjoy your stay :)                 
+                </div>               
               </div>
               
               {/* Projects Section */}
